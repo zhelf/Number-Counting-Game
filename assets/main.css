@@ -1,0 +1,112 @@
+body {
+ 	 background: url("cartoonFarm.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	overflow: hidden;
+  	z-index: 0;
+  	font-family: 'Luckiest Guy', cursive;
+}
+
+h1 {
+	text-align: center;
+}
+ .square  p{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+
+
+.square {
+	width: 150px;
+	height: 150px;
+	border: red dashed 4px;
+	background: white;
+	color: red;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	display: inline-block;
+	font-size: 7em;
+}
+
+@media(min-width: 768px) {
+	.square {
+		width: 250px;
+		height: 250px;
+	}
+}
+
+/*@media(min-width: 1050px) {
+	.square {
+		width: 350px;
+		height: 350px;
+	}
+}*/
+
+.test {
+	background: purple;
+}
+
+.hidden {
+	display: none;
+}
+
+
+.horse {
+	width: 50px;
+	height: 50px;
+	margin: 0 8px;
+
+}
+
+@media(min-width: 576px) {
+	.horse {
+		width:	60px;
+		height: 60px;
+	}
+}
+
+@media (min-width: 768px) {
+	.horse {
+		width:	75px;
+		height: 75px;
+		margin: 0 15px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.horse {
+		width:	100px;
+		height: 100px;
+		margin: 0 20px;
+	}
+}
+
+.horses{
+	padding-top: 20%;
+}
+
+.container {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.correct {
+	background-color: green;
+	color: pink;
+}
+
+.wrong {
+	background-color: red;
+}
